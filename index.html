@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Synth Piano</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="synth">
+    <div class="controls">
+      <div class="control-section">
+        <span class="section-title">Modulation</span>
+        <div class="knob-row">
+          <div class="knob">
+            <div class="knob-label">Rate</div>
+          </div>
+          <div class="knob">
+            <div class="knob-label">Depth</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="control-section">
+        <span class="section-title">Tremolo</span>
+        <div class="knob-row">
+          <div class="knob">
+            <div class="knob-label">Rate</div>
+          </div>
+          <div class="knob">
+            <div class="knob-label">Depth</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="keyboard-shell">
+      <div class="white-keys">
+        <button class="key white" data-note="C4"><span class="note-label">C</span></button>
+        <button class="key white" data-note="D4"><span class="note-label">D</span></button>
+        <button class="key white" data-note="E4"><span class="note-label">E</span></button>
+        <button class="key white" data-note="F4"><span class="note-label">F</span></button>
+        <button class="key white" data-note="G4"><span class="note-label">G</span></button>
+        <button class="key white" data-note="A4"><span class="note-label">A</span></button>
+        <button class="key white" data-note="B4"><span class="note-label">B</span></button>
+        <button class="key white" data-note="C5"><span class="note-label">C</span></button>
+      </div>
+
+      <div class="black-keys">
+        <button class="key black" data-note="C#4"><span class="note-label">C#</span></button>
+        <button class="key black" data-note="D#4"><span class="note-label">D#</span></button>
+        <button class="key black" data-note="F#4"><span class="note-label">F#</span></button>
+        <button class="key black" data-note="G#4"><span class="note-label">G#</span></button>
+        <button class="key black" data-note="A#4"><span class="note-label">A#</span></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
